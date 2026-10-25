@@ -2,6 +2,25 @@
 
 All notable changes to Octop Mobile are documented in this file.
 
+## [1.1.0] - 2026-10-25
+
+### Added
+
+- Independent Release build derived from `huangcheng/OctopMobile` `v1.0.0`, with clear upstream attribution and preserved license notice.
+- Independent Android package `com.destinyme.octopmobile`, versionCode 3 and versionName 1.1.0.
+- Native Expo config plugin that enables LAN cleartext HTTP while retaining the app's one-time security warning.
+- Dedicated Release documentation and APK checksum.
+
+### Fixed
+
+- Failed login requests no longer remount the login screen, clear typed credentials, or hide the error message.
+- Release manifest now carries the cleartext-traffic setting consistently after Expo prebuild.
+
+### Security
+
+- HTTPS remains supported; TLS certificate validation is never bypassed.
+- HTTP traffic is unencrypted, so users should prefer HTTPS whenever the network is not fully trusted.
+
 ## [1.0.1] - 2026-10-25
 
 ### Added

@@ -6,10 +6,16 @@
 项目使用原生 Android 外壳承载 Octop 官方移动端 Web 应用，保留服务器端登录、
 验证码、SSO、智能体、任务、知识库和文件能力，不需要跟随上游前端重复实现接口。
 
+> **新版客户端（v1.1.0 起）**：仓库中的 [`octopmobile/`](octopmobile/) 是基于
+> [huangcheng/OctopMobile](https://github.com/huangcheng/OctopMobile) `v1.0.0`
+> 构建的独立 Release 版本，使用独立包名、版本号和签名，提供完整的原生移动端体验。
+> 请从 [GitHub Releases](https://github.com/destinyme58/octop-mobile-android/releases)
+> 下载最新 APK。下方原生 WebView 外壳是项目早期的 v1.0.x 实现，仅作为历史版本保留。
+
 > Octop Mobile 与腾讯云及 Octop 官方无隶属关系，也未获得其官方背书。
 
 <p align="center">
-  <img src="artifacts/octop-live-preview.png" width="320" alt="Octop Mobile 界面预览" />
+  <img src="artifacts/octopmobile-v1.1.0-login.png" width="320" alt="Octop Mobile v1.1.0 登录界面" />
 </p>
 
 ## 下载
@@ -21,8 +27,9 @@
 http://octop.local:8088
 ```
 
-当前 APK 使用 Android debug 签名，适合个人测试和内部使用。正式分发前应配置独立的
-release keystore，并妥善保管签名文件。
+v1.1.0 新版客户端使用独立 release keystore 签名，安装包、校验值和证书指纹见
+[v1.1.0 发布说明](docs/releases/v1.1.0.md)。早期 v1.0.1 历史包仍使用 Android
+debug 签名，仅用于存档。
 
 ## 功能
 

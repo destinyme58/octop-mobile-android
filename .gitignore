@@ -18,6 +18,7 @@ secrets.properties
 # Release assets are attached to GitHub Releases, not committed to Git.
 artifacts/*.apk
 artifacts/*.sha256
+artifacts/*.idsig
 
 .DS_Store
 
