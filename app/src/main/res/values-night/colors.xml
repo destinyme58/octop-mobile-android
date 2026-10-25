@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="surface">#17171B</color>
+    <color name="text_primary">#F3EFF4</color>
+    <color name="text_secondary">#C9C3CC</color>
+    <color name="outline">#3A3840</color>
+    <color name="octop_red_soft">#3A2026</color>
+</resources>
+

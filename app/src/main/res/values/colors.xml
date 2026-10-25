@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="octop_red">#D9445D</color>
+    <color name="octop_red_dark">#B92E47</color>
+    <color name="octop_red_soft">#FFF0F3</color>
+    <color name="surface">#FFFBFE</color>
+    <color name="text_primary">#1C1B1F</color>
+    <color name="text_secondary">#67666D</color>
+    <color name="outline">#D8D5DB</color>
+    <color name="white">#FFFFFF</color>
+</resources>
+

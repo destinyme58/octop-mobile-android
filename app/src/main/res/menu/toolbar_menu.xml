@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh_24"
+        android:title="@string/menu_refresh"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_server"
+        android:icon="@drawable/ic_server_24"
+        android:title="@string/server_settings"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/menu_share"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_browser"
+        android:title="@string/menu_open_browser"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_clear_session"
+        android:title="@string/menu_clear_session"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/menu_about"
+        app:showAsAction="never" />
+</menu>
+

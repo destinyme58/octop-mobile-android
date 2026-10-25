@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Octop</string>
+    <string name="loading_connect">正在连接 Octop</string>
+    <string name="loading_hint">首次加载可能需要几秒</string>
+    <string name="error_title">暂时无法连接</string>
+    <string name="error_network">请检查手机与 Octop 服务器是否在同一网络，或确认服务器地址是否正确。</string>
+    <string name="error_server">服务器返回了异常状态，请稍后重试。</string>
+    <string name="retry">重新连接</string>
+    <string name="server_settings">服务器设置</string>
+    <string name="nav_chat">对话</string>
+    <string name="nav_experts">专家</string>
+    <string name="nav_tasks">任务</string>
+    <string name="nav_more">更多</string>
+    <string name="more_title">更多功能</string>
+    <string name="personalization">个性化</string>
+    <string name="knowledge_bases">知识库</string>
+    <string name="workbench">工作台</string>
+    <string name="token_usage">用量统计</string>
+    <string name="menu_refresh">刷新</string>
+    <string name="menu_share">分享当前页面</string>
+    <string name="menu_open_browser">在浏览器中打开</string>
+    <string name="menu_clear_session">清除登录与缓存</string>
+    <string name="menu_about">关于</string>
+    <string name="server_url_label">Octop 服务器地址</string>
+    <string name="server_url_hint">例如 http://192.168.32.65:8088</string>
+    <string name="server_url_help">支持局域网 HTTP 或 HTTPS。修改后会在当前客户端重新打开服务器。</string>
+    <string name="server_url_invalid">请输入有效的 http:// 或 https:// 地址</string>
+    <string name="save">保存并连接</string>
+    <string name="cancel">取消</string>
+    <string name="clear_session_title">清除登录状态？</string>
+    <string name="clear_session_message">这会删除 WebView 中的 Cookie、站点数据和缓存。下一次打开时需要重新登录 Octop，不会影响服务器上的任何数据。</string>
+    <string name="clear">清除</string>
+    <string name="about_title">关于 Octop Mobile</string>
+    <string name="about_message">版本 %1$s\n\nOctop Mobile 是自托管 Octop 的 Android 专用容器。登录、对话与数据处理仍由你配置的 Octop 服务器完成。</string>
+    <string name="close">关闭</string>
+    <string name="popup_title">登录授权</string>
+    <string name="download_started">已开始下载 %1$s</string>
+    <string name="download_failed">无法下载此文件</string>
+    <string name="download_blob_unsupported">此文件由 Octop 页面动态生成，请返回网页内下载</string>
+    <string name="connection_offline">网络不可用</string>
+    <string name="permission_needed">需要相关权限才能使用语音或拍摄功能</string>
+    <string name="press_again_exit">再按一次退出 Octop</string>
+    <string name="open_external_failed">没有可打开此链接的应用</string>
+    <string name="share_failed">无法分享当前页面</string>
+    <string name="page_loading">页面加载中</string>
+</resources>
+

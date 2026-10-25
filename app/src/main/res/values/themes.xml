@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Octop" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/octop_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/octop_red_soft</item>
+        <item name="colorOnPrimaryContainer">@color/octop_red_dark</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="android:colorBackground">@color/surface</item>
+        <item name="android:windowBackground">@color/surface</item>
+        <item name="android:statusBarColor">@color/surface</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.Octop.Dialog</item>
+    </style>
+
+    <style name="ThemeOverlay.Octop.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog" />
+
+    <style name="TextAppearance.Octop.Toolbar" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="Widget.Octop.SheetAction" parent="Widget.Material3.Button.TextButton">
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="iconTint">@color/text_secondary</item>
+        <item name="iconPadding">14dp</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+</resources>
+

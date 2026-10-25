@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="page_gutter">24dp</dimen>
+    <dimen name="sheet_gutter">20dp</dimen>
+</resources>
+
